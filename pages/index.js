@@ -1,6 +1,7 @@
 import { Footer } from "../components/Footer";
 import Main from "../components/Main";
 import { Navbar } from "../components/Navbar";
+import Wordpress from "../components/Wordpress";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Main />
+      <Wordpress />
       <Footer />
     </div>
   )
